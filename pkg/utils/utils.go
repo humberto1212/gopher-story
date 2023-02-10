@@ -12,7 +12,7 @@ import (
 func ParseJSON() map[string]models.StoryArc {
 
 	// Open jsonFile
-	jsonFile, err := os.Open("/Users/humberto/go/src/github.com/humberto1212/gopher-exer/gopher-story/story.json")
+	jsonFile, err := os.Open("")
 	// if we os.Open returns an error then handle it
 	if err != nil {
 		fmt.Println(err)
